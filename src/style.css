@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+
+  --indigo: 103 17 242;
+  --blue: 1 123 255;
+  --purple: 111 66 193;
+  --cyan: 25 162 184;
+  --red: 220 52 70;
+  --pink: 232 62 140;
+  --green: 40 167 68;
+  --yellow: 255 193 6;
+  --orange: 253 126 19;
+  --brown: 121 86 71;
+
+  /* default theme */
+  --color-primary: 32 201 150; /* teal */
+}
+
+/* Mobile menu slide animation */
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: all 0.3s ease;
+}
+
+.slide-fade-enter-from {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.slide-fade-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
