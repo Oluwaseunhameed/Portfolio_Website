@@ -52,3 +52,12 @@ html {
 .animate-scale-in {
   animation: scaleIn 0.25s ease-out;
 }
+
+.swiper-pagination-bullet {
+  background: #999;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgb(var(--color-primary));
+}

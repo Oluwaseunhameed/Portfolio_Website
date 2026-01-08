@@ -38,7 +38,7 @@ const parts = computed(() => {
   <!-- Background Text -->
   <h2
     class="absolute inset-0 flex items-center justify-center
-           text-[4rem] lg:text-[8rem]
+           text-[3rem] lg:text-[8rem]
            font-extrabold uppercase
            text-gray-200/50 select-none"
   >

@@ -229,3 +229,36 @@ export const portfolioItems = [
     gallery: ["/blog.png", "/chat.png"],
   },
 ];
+
+// ============ Testimonials data =========== //
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Jay Shah",
+    role: "Founder at Icomatic Pvt Ltd",
+    image: "/profile.jpeg",
+    message:
+      "Easy to work with and delivered everything on time. Highly recommended for professional web projects.",
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: "Dennis Jacques",
+    role: "User from USA",
+    image: "/profile.jpeg",
+    message:
+      "Fantastic experience working together. Communication was clear and results exceeded expectations.",
+    rating: 5,
+  },
+  {
+    id: 3,
+    name: "Sarah Johnson",
+    role: "CEO at Webflow",
+    image: "/profile.jpeg",
+    message:
+      "A highly skilled developer with strong attention to detail and performance.",
+    rating: 5,
+  },
+];
+
