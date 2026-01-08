@@ -10,7 +10,7 @@ import { stats } from '@/data/sharedData'
     id="about"
     class="bg-white min-h-screen py-20 px-5 md:px-10"
   >
-    <SectionHeader title="ABOUT ME" subtitle="Know Me More" />
+    <SectionHeader title="ABOUT ME" subtitle="Know Me More" highlight=" Me "/>
 
     <div
       class="max-w-6xl mx-auto
