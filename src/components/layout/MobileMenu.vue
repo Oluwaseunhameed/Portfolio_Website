@@ -20,6 +20,7 @@ const { activeHash } = useActiveSection()
         :href="item.hash"
         @click="close"
         class="
+          cursor-pointer
           block px-6 py-3 text-left
           border-b border-white/10
           last:border-b-0

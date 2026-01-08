@@ -8,7 +8,7 @@ import MobileNavbar from '@/components/layout/MobileNavbar.vue'
     <Sidebar />
 
     <!-- Main Content -->
-    <main class="flex-1 relative md:ml-60">
+    <main class="flex-1 relative md:ml-65">
       <MobileNavbar />
 
       <div class="pt-16 md:pt-0">

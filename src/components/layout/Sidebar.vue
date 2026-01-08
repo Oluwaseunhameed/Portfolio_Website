@@ -8,7 +8,7 @@ const { activeHash } = useActiveSection()
 
 <template>
   <aside
-    class="hidden md:flex md:w-60 bg-[#111418] text-white
+    class="hidden md:flex md:w-65 bg-[#111418] text-white
            flex-col justify-between items-center fixed h-screen"
   >
     <!-- Profile -->

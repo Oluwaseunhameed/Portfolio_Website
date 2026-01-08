@@ -18,6 +18,10 @@
   --color-primary: 32 201 150; /* teal */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Mobile menu slide animation */
 .slide-fade-enter-active,
 .slide-fade-leave-active {

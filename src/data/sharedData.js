@@ -37,3 +37,10 @@ export const roles = [
   "I'm a Backend Developer.",
   "I'm a FullStack Developer.",
 ];
+
+export const stats = [
+  { value: "10+", label: "Years Experience" },
+  { value: "20+", label: "Languages / Frameworks" },
+  { value: "32+", label: "Projects Done" },
+  { value: "38", label: "Certificates" },
+];

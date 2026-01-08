@@ -1,6 +1,6 @@
 <script setup>
 import HeroSection from '@/components/sections/HeroSection.vue'
-// import AboutSection from '@/sections/AboutSection.vue'
+import AboutSection from '@/components/sections/AboutSection.vue'
 // import ServicesSection from '@/sections/ServicesSection.vue'
 // import ResumeSection from '@/sections/ResumeSection.vue'
 // import PortfolioSection from '@/sections/PortfolioSection.vue'
@@ -10,8 +10,8 @@ import HeroSection from '@/components/sections/HeroSection.vue'
 
 <template>
   <HeroSection />
-  <!-- <AboutSection />
-  <ServicesSection />
+  <AboutSection />
+  <!-- <ServicesSection />
   <ResumeSection />
   <PortfolioSection />
   <TestimonialsSection />
