@@ -52,7 +52,7 @@ import { stats } from '@/data/sharedData'
         </ul>
 
         <a
-          href="/https://drive.google.com/file/d/1AN-HZS-MI6UNX7FUhuen4ruHiQaRZr7o/view?usp=sharing"
+          href="/cv.pdf"
           download
           class="inline-block px-8 py-3 rounded-full
               bg-[rgb(var(--color-primary))] text-white
