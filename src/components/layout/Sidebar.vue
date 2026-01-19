@@ -14,7 +14,7 @@ const { activeHash } = useActiveSection()
     <!-- Profile -->
     <div class="mt-10 text-center">
       <img
-        src="/profile.jpeg"
+        src="/logo2.png"
         alt="Profile photo of Oluwaseun Hameed"
         class="w-40 h-40 mx-auto rounded-full border-4 border-[#343A40]"
       />

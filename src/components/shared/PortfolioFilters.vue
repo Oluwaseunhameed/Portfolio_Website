@@ -1,8 +1,8 @@
 <script setup>
 import { portfolioCategories } from '@/data/sharedData'
 
-defineProps({
-  modelValue: String,
+const props = defineProps({
+  modelValue: String
 })
 
 const emit = defineEmits(['update:modelValue'])
@@ -17,8 +17,7 @@ const emit = defineEmits(['update:modelValue'])
       v-for="category in portfolioCategories"
       :key="category"
       @click="emit('update:modelValue', category)"
-      class="relative text-sm font-medium uppercase tracking-wide
-             transition-colors"
+      class="relative text-sm font-medium uppercase tracking-wide transition-colors"
       :class="[
         modelValue === category
           ? 'text-[rgb(var(--color-primary))]'

@@ -4,7 +4,7 @@ import AboutSection from '@/components/sections/AboutSection.vue'
 import ServicesSection from '@/components/sections/ServicesSection.vue'
 import ResumeSection from '@/components/sections/ResumeSection.vue'
 import PortfolioSection from '@/components/sections/PortfolioSection.vue'
-import TestimonialsSection from '@/components/sections/TestimonialsSection.vue'
+// import TestimonialsSection from '@/components/sections/TestimonialsSection.vue'
 import ContactSection from '@/components/sections/ContactSection.vue'
 </script>
 
@@ -14,6 +14,6 @@ import ContactSection from '@/components/sections/ContactSection.vue'
   <ServicesSection />
   <ResumeSection />
   <PortfolioSection />
-  <TestimonialsSection />
+  <!-- <TestimonialsSection /> -->
   <ContactSection />
 </template>
